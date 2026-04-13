@@ -1,0 +1,10 @@
+nome = input("Digite seu nome: ")
+print(f"Bem-vindo(a), {nome}!")
+
+print("\nCaracteres do seu nome:")
+tamanho = len(nome)
+print(F"Quantidade de caracteres {tamanho}")
+print(f"Primeira letra: {nome[0]}")
+print(f"Última letra: {nome[-1]}")  
+nome_maiusculo = nome.upper()
+print(nome_maiusculo)
